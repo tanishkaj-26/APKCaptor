@@ -1,0 +1,6 @@
+.env
+venv/
+__pycache__/
+*.apk
+test_scorer.py
+APKCaptor_Threat_Report.html
