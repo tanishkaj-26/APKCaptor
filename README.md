@@ -78,7 +78,7 @@ streamlit run apkcaptor.py
 
 ---
 
-## 🧠 Tech Stack
+
 ## 🧠 Tech Stack
 | Component | Technology |
 |---|---|
