@@ -92,24 +92,18 @@ streamlit run apkcaptor.py
 ---
 
 ## 📁 Project Structure
-apkcaptor/
 
+```
+apkcaptor/
 ├── apkcaptor.py
 ├── apkcaptor_static.py
-
 ├── apkcaptor_vt.py
-
 ├── apkcaptor_scorer.py
-
 ├── apkcaptor_ai.py
-
 ├── apkcaptor_report.py
-
 ├── requirements.txt
-
 └── .env
-
----
+```
 
 ## 👩‍💻 Built By
 **Tanishka** — Built as part of a cybersecurity + AI project targeting banking fraud prevention.
