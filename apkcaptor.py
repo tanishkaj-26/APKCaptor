@@ -147,8 +147,14 @@ if uploaded_file:
 
 else:
     st.markdown("""
-        <div style='text-align:center; padding:40px; color:#aaa;'>
-            <p style='font-size:48px;'>📱</p>
-            <p style='font-size:16px;'>Upload an APK file above to begin analysis</p>
+       <div style='text-align:center; padding:60px;'>
+            <p style='font-size:18px; font-weight:500; color:#aaa; margin-bottom:20px;'>Upload a suspicious APK file above to begin analysis</p>
+            <div style='display:flex; justify-content:center; align-items:center; gap:8px;'>
+                <div style='background:#14145a; color:white; padding:8px 14px; border-radius:6px; font-size:12px; font-weight:bold; white-space:nowrap;'>🔎 Scan for Malicious Behavior</div>
+                <span style='color:#aaa; font-size:18px;'>→</span>
+                <div style='background:#14145a; color:white; padding:8px 14px; border-radius:6px; font-size:12px; font-weight:bold; white-space:nowrap;'>📊 Calculate Risk Score</div>
+                <span style='color:#aaa; font-size:18px;'>→</span>
+                <div style='background:#14145a; color:white; padding:8px 14px; border-radius:6px; font-size:12px; font-weight:bold; white-space:nowrap;'>📄 Generate Threat Report</div>
+            </div>
         </div>
     """, unsafe_allow_html=True)
